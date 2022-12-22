@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;500;700&family=PT+Serif&family=Ubuntu:ital@1&display=swap");
+
+*{
+  margin: 0px;
+}
+
+ul {
+  display: flex;
+  /* border: 2px solid black; */
+  list-style: none;
+  align-items: center;
+}
+li {
+  padding: 3px 34px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navig {
+  display: flex;
+  /* border: 2px solid red; */
+  position: absolute;
+  right: 200px;
+  font-family: "Oxygen", sans-serif;
+  justify-content: center;
+}
+.logo {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+}
+.logocontent {
+  font-family: "PT Serif", serif;
+  font-weight: bolder;
+}
+.cont {
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-family: 'Oxygen', sans-serif; */
+  font-size: small;
+  /* font-weight: lighter; */
+}
+img {
+  width: 35px;
+  height: 35px;
+  /* height: inherit; */
+}
+
+.container {
+  background-color: #f2efe3;
+  /* border:2px solid #ffcf5a; */
+  background-image: url("/coffee.avif");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 60%;
+  /* width: 500px; */
+  height: 500px;
+}
+/* .container background-image{
+   background-size: cover;
+} */
+.coffee {
+  margin: 100px 150px;
+  width: 400px;
+  height: 270px;
+  /* border: 2px solid red; */
+}
+
+.coffee h1 {
+  font-family: "Source Code Pro", monospace;
+}
+
+.btn {
+  /* border: 2px solid rgb(12, 155, 157); */
+  margin: 10px 40px;
+  background-color: #ffcf5a;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+}
+
+.cardsection {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  height: 300px;
+  align-items: center;
+}
+
+.cards {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  border: 3px solid rgb(50, 47, 47);
+  /* width: 20%; */
+  height: 290px;
+  margin: 4px 19px;
+}
+
+.image {
+  /* border: 2px solid red; */
+  width: 40px;
+  height: 40px;
+  margin: 46px;
+}
+
+.text {
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: larger;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bolder;
+  padding: 2px 10px;
+}
+.thirdsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mention {
+  width: 300px;
+  height: 300px;
+  border-radius: 50% 50% 0% 50%;
+  background-image: url("/2.jpg");
+  background-repeat: no-repeat;
+  background-size: 340px 320px;
+}
+
+.bestdeal {
+  height: 600px;
+  width: 100%;
+  background-color: #fffcee;
+  /* background-color:#D4D4D4; */
+
+  /* background-color:#756625; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.btext {
+  width: 80%;
+  /* background-color: blue; */
+
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btext p {
+  width: 450px;
+  font-family: "Lora", serif;
+}
+.btext h2 {
+  font-family: "Lora", serif;
+  font-size: 5rem;
+  margin-top: -20px;
+  margin-bottom: -12px;
+  /* background-color: #FFFCEE; */
+}
+
+.bcards {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin: auto;
+  /* align-items: center; */
+  /* background-color: aquamarine; */
+  height: 499px;
+  width: 80%;
+  /* padding: 0px 30px; */
+}
+
+.bpack {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(156, 210, 188); */
+  /* border: 2px solid black; */
+  height: 299px;
+  margin: auto;
+  width: 360px;
+  background-image: url("/3.png");
+}
+
+.fifthsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mentions {
+  width: 300px;
+  height: 300px;
+  border-radius: 50% 50% 50% 0%;
+  background-image: url("/4.avif");
+  background-repeat: no-repeat;
+  background-size: 340px 320px;
+}
+
+.seclast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lastsection {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: white;
+  height: 550px;
+  background-color: black;
+}
+
+.lastsection img {
+  width: 100%;
+  height: 300px;
+}
+
+.lastsection h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(75, 75, 75);
+  border-bottom: 2px solid grey;
+}
+
+footer {
+  border-top: 2px solid grey;
+  background-color: black;
+  color: grey;
+  /* display: flex; */
+  /* justify-content: right; */
+  height: 40px;
+}
