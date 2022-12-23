@@ -71,6 +71,7 @@ img {
 }
 
 .btn {
+
   /* border: 2px solid rgb(12, 155, 157); */
   margin: 10px 40px;
   background-color: #ffcf5a;
@@ -79,6 +80,10 @@ img {
   border-radius: 30px;
   width: 150px;
   height: 40px;
+}
+
+.btn button{
+  cursor: pointer;
 }
 
 .cardsection {
